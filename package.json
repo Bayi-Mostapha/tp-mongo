@@ -1,0 +1,29 @@
+{
+  "name": "tp-mongodb-api",
+  "version": "1.0.0",
+  "description": "API REST Node.js/Express/MongoDB pour la gestion de produits",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seedProducts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
